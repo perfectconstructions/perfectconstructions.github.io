@@ -1,0 +1,10 @@
+# Site settings
+title: Perfect Constructions
+
+# SEO plugin
+url: "http://perfectconstructions.net" # the base hostname & protocol for your site
+plugins:
+  - jekyll-sitemap
+
+# GA
+google_analytics_ua: "UA-146467859-1"

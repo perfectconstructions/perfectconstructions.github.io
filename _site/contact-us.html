@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Traansformation Design Studio</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/demo.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/style3.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/menu.css" />
+
+<link rel="stylesheet" href="lightbox/css/lightbox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="lightbox/js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="lightbox/js/lightbox-2.6.min.js"></script>
+<script type="text/javascript" src="lightbox/js/modernizr.custom.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Khand:400,500,300,200,100' rel='stylesheet' type='text/css' />
+
+  </head>
+  <body>
+    <div class="menu">
+    	<div id="showMenu"><img src="/assets/images/menu-alt.png" alt="" /></div>        
+</div>
+
+<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu">
+    <div class="close">
+        <a class="scroll" href="#home"><img src="/assets/images/ico_close.png" alt="" /></a>
+    </div>
+    
+    
+       <a href="/" >Home</a>
+    
+       <a href="/profile.html" >About Company</a>
+    
+       <a href="/mission.html" >Mission & Vision</a>
+    
+       <a href="/services.html" >Services</a>
+    
+       <a href="/careers.html" >Careers</a>
+    
+       <a href="/contact-us.html" class="current">Contact Us</a>
+    
+</nav>
+
+    <script src="/assets/js/classie.js"></script>
+    <script>
+        var menuRight = document.getElementById('cbp-spmenu'),
+            body = document.body;
+
+        showMenu.onclick = function () {
+            classie.toggle(this, 'active');
+            classie.toggle(menuRight, 'cbp-spmenu-open');
+        };
+
+        $('.scroll').click(
+				function (e) {
+				    classie.toggle(menuRight, 'cbp-spmenu-open');
+				});	
+            
+    </script>
+
+    <div class="header">
+      <img src="/assets/images/logo.png" alt="" height="40px"/>
+
+    </div>
+
+
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.613576488883!2d72.84589681490328!3d19.212073087009998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b6d6e7b99cb7%3A0xa302830db810a993!2sPerfect%20Constructions!5e0!3m2!1sen!2sie!4v1566767971966!5m2!1sen!2sie" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
+    
+    <div class="wrapper" style="padding:0; margin-top:0;">
+    
+        <div class="contacts">
+            <div class="address">
+            <h3>Office Address</h3>
+            <p>Office : 45-1/3, Borsapada Road, <br>Indira Nagar, Kandivali West, <br>Mumbai - 400067</p>
+            <p>Office Telephone : +919004555543</p>
+            <p>Email ID : contact@perfectconstructions.net<br />Website : perfectconstructions.net</p>
+            </div>
+        </div>
+    
+        <div class="contacts">
+            <h3>Support</h3>
+                    
+                <div class="form">
+                    <div class="field">
+                        <input type="text" id="txtName" placeholder="Name"/>
+                        <div class="error" >
+                            
+                        </div>
+                    </div>
+    
+                    <div class="field">
+                        <input type="text" id="txtEmail" placeholder="Email" pattern="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" required=true/>
+                        <div class="error">
+                            
+                        </div>
+                    </div>
+    
+                    <div class="field">
+                        <input type="text" ID="txtContact" placeholder="Contact" pattern="^[01]?[- .]?\(?[2-9]\d{2}\)?[- .]?\d{3}[- .]?\d{4}$"/>
+                        <div class="error">
+                            
+                        </div>
+                    </div>
+    
+                    <div class="field">
+                        <textarea ID="txtFeedback" placeholder="Feedback" required=true></textarea>
+                    </div>
+                    
+                    <input type="submit" ID="btnSubmit" Text="Send"/>
+                    <input type="reset"  ID="btnReset" Text="Reset"/>
+                </div>
+        </div>
+    
+        <div class="clear"></div>
+    </div>
+    
+    
+    
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-77671345-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+    <div class="footer">Copyright &copy; 2019. All righs reserved. Perfect Constructions</div>
+
+  </body>
+</html>
