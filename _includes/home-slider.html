@@ -1,0 +1,22 @@
+<section class="home-slider js-fullheight owl-carousel bg-white">
+        {% for item in site.data.services %}
+        <div class="slider-item js-fullheight">
+            <div class="overlay"></div>
+          <div class="container">
+            <div class="row d-md-flex no-gutters slider-text js-fullheight align-items-center justify-content-end" data-scrollax-parent="true">
+                <div class="one-third order-md-last img js-fullheight" style="background-image:url(assets/images/{{item.image-name}});">
+                    <h3 class="vr">Services</h3>
+                </div>
+                <div class="one-forth d-flex js-fullheight align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+                    <div class="text">
+                      <h1 class="mb-4">{{ item.service-name }}</h1>
+                      <p>{{ item.description | truncate_words: 20 }}</p>
+                      <!-- <p><a href="#" class="btn btn-primary px-4 py-3 mt-3">View our works</a></p> -->
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        {% endfor %}
+
+</section>

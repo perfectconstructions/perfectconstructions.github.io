@@ -1,0 +1,33 @@
+- service-name: Road Construction
+  description: |
+    We offer road construction services ranging from large-scale projects to individual special projects.
+    With specialisation that spans across three decades , our expertise makes us one of the finest service providers for road construction.
+    We offer Both Bitumen as well as Concrete road construction services as per the requirements of our esteemed clients. Let’s together build the highway to your dreams !!!
+  image-name: 0.jpg
+
+- service-name: Building Construction
+  description: |
+    We possess the specialisation and requisite expertise to provide excellent building construction services to our clients. We at Perfect Constructions make use of latest structural designing, and building technology to meet the increasing demands of the clients and make sure about the completion of these distinguished engineering structures within the stipulated time frame to enhance customer satisfaction.
+    Since based on modern concept, our projects are reckoned in the industry for their aesthetic and elegant look. 
+  image-name: 1.jpg
+
+- service-name: Electrical Works
+  description: |
+    We provide professional service in the domain of Electrical services. 
+    We are a leading service provider efficiently serving a rich clientele with our Electrical Contracting Services. We execute both individual and turnkey projects as per the industry standards. It is ensured that quality standards are maintained, and customer satisfaction is achieved at the highest level.
+  image-name: 5.jpeg
+
+- service-name: Plumbing Works Contract
+  description: |
+    We are professional service providers of complete plumbing and sanitation services for Industrial, Residential and Commercial purposes. Our expertise lies in Water Supply Systems, Drainage Systems , Sanitary & C.P. Fittings, Pump Installations and other allied services. We  assure of excellent workmanship and high-quality services and reiterate our commitment to provide the Best service that our customer deserves that helps us achieve utmost customer satisfaction.
+  image-name: 1.jpg
+
+- service-name: Fabrication works
+  description: |
+    We have equipped our infrastructure with latest equipment, machines, tools and advanced technology. Apart from this, our team has rich technical expertise that helps us in rendering effective and cost-efficient engineering services such as Steel Fabrication, Aluminium Fabrication, Industrial shed Fabrication and other heavy engineering works. Keeping a pace with new technology and high quality standards, we at Perfect Constructions offer reliable, result oriented and financially viable solutions to our esteemed clients.
+  image-name: 3.jpg
+
+- service-name: Interior and exterior renovations
+  description: |
+    We are a one stop service provider when it comes to full home interior designing, finest modular kitchen designs, commercial renovations, workplace renovations and also bring to you our 3D design service which helps to view a 360 degree panoramic image that helps the client to view the project at pre execution stage. We also execute all exterior renovations including waterproofing works, polymer treatment, painting works and other allied civil works.
+  image-name: 7.jpeg

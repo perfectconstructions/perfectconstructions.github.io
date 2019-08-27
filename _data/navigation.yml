@@ -1,12 +1,12 @@
 - name: Home
   link: /
 - name: About Company
-  link: /profile.html
+  link: /#about-us
 - name: Mission & Vision
-  link: /mission.html
+  link: /#mission
 - name: Services
-  link: /services.html
+  link: /#services
 - name: Careers
-  link: /careers.html
+  link: /#careers
 - name: Contact Us
   link: /contact-us.html
