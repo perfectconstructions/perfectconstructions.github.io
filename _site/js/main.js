@@ -322,15 +322,11 @@
 			scrollTop: $( $.attr(this, 'href') ).offset().top
 		}, 500);
 
+		$(".nav-link").removeClass('active');
+
+		$(this).addClass('active');
 		return false;
 	});
-
-	$(".nav-item").click(function(){
-		$(".nav-item").removeClass('active');
-		$(this).addClass('active');
-	});
-
-
 
 })(jQuery);
 

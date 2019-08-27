@@ -22,7 +22,7 @@
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
                 {% for item in site.data.navigation %}
-                <li class="nav-item {% if page.url == item.link %}current{% endif %}"><a href="{{ item.link }}" class="nav-link">{{ item.name }}</a></li>
+                <li class="nav-item"><a href="{{ item.link }}" class="nav-link {% if page.url == item.link %}active{% endif %}">{{ item.name }}</a></li>
 	        	{% endfor %}
 	        </ul>
 	      </div>
