@@ -8190,7 +8190,7 @@ h1, h2, h3, h4, h5,
     bottom: 0;
     content: '';
     opacity: .8;
-    background: #0033c7; }
+    background: #107ad5; }
   .hero-wrap.hero-wrap-2 {
     height: 300px; }
     .hero-wrap.hero-wrap-2 .slider-text {
@@ -8476,8 +8476,8 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #0033c7;
-    border: 1px solid #0033c7;
+    background: #107ad5;
+    border: 1px solid #107ad5;
     color: #fff; }
     .btn.btn-primary:hover {
       border: 1px solid #0033c7;

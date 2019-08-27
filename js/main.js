@@ -315,12 +315,20 @@
     fixedContentPos: false
   });
 
+	var $root = $('html, body');
 
-  $('.checkin_date, .checkout_date').datepicker({
-	  'format': 'm/d/yyyy',
-	  'autoclose': true
+	$('a[href^="#"]').click(function () {
+		$root.animate({
+			scrollTop: $( $.attr(this, 'href') ).offset().top
+		}, 500);
+
+		return false;
 	});
 
+	$(".nav-item").click(function(){
+		$(".nav-item").removeClass('active');
+		$(this).addClass('active');
+	});
 
 
 
